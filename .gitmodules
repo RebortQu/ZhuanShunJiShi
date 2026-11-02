@@ -1,0 +1,4 @@
+[submodule "ZhuanShunJiShiAgent"]
+	path = ZhuanShunJiShiAgent
+	url = https://github.com/RebortQu/ZhuanShunJiShiAgent.git
+	branch = main
