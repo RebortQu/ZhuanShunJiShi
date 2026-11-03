@@ -182,7 +182,7 @@ Agent 此时只会返回一份完整的 `# 待处理清单`，不会写入分类
 
 在github仓库下载对应的`01-转瞬即逝.md`文件并导入XMind得到下面思维导图。
 
-![](doc\img\mindMap1.png)
+![](https://raw.githubusercontent.com/RebortQu/ZhuanShunJiShi/refs/heads/featrue/doc/img/mindMap1.png)
 
 ## 文件结构
 
@@ -191,9 +191,7 @@ ZhuanShunJiShiAgent/
 ├─ AGENTS.md          # Agent 必须遵守的完整整理与写入规则
 ├─ 分类目录.md         # 一级分类、文件名、根节点和适用范围
 ├─ README.md          # 功能介绍、使用方式与折叠的首次配置手册
-├─ 00-待归类.md        # 首次初始化后按需存在的分类文档
-├─ 01-学习.md          # 其余分类文档同样采用单根 Markdown 树
-└─ doc/img/           # 可选：以后新增的 README 截图统一放在这里
+└─ 00-待归类.md        # 首次初始化后按需存在的分类文档
 ```
 
 当前模板已经定义默认分类，但首次使用时仍应由 Agent 检查分类文件是否存在；如需创建，Agent 必须先征得你的确认。分类文档只使用无序列表，每层两个空格，不使用表格、任务复选框或多根结构。
